@@ -1,0 +1,67 @@
+.container{
+  width: 1071px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: rgb(253, 253, 253);
+  padding: 50px;
+  color: #000;
+  border-radius: 4px;
+  box-shadow:  2px 4px 0 rgb(0 0 0 / 10%) !important;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+#projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.article-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.article-5-2{
+  padding: 20px;
+  background-color: rgb(243, 248, 252);
+  border-radius: 10px;
+}
+.article-5-2 h1{
+  font-size: 20px;
+  color: rgb(86, 141, 4);
+}
+.article-5-2 h2{
+font-size: 16px;
+}
+.article-5-2 h3{
+  font-size: 16px;
+}
+.article-5-2 a{
+  color: rgb(86, 141, 4);
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+}
+.flex-category{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+#item-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
